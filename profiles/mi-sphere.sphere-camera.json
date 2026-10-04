@@ -1,0 +1,41 @@
+{
+  "format": "sphere-camera-profile",
+  "schemaVersion": 1,
+  "id": "sphere-dual-fisheye",
+  "name": "Mi Sphere",
+  "manufacturer": "Xiaomi",
+  "model": "Mi Sphere 360",
+  "source": {
+    "layout": "dual-fisheye-horizontal",
+    "width": 6912,
+    "height": 3456
+  },
+  "calibration": {
+    "opticalModel": "apk-polynomial",
+    "leftCenter": {
+      "x": 1725,
+      "y": 1727
+    },
+    "rightCenter": {
+      "x": 5185,
+      "y": 1743
+    },
+    "lensRadius": 1690,
+    "lensFovScale": 1.03,
+    "radialPolynomial": {
+      "coefficients": [
+        0.4759061964,
+        -0.6186458585,
+        0.2658728735,
+        0.8768667886
+      ],
+      "radiusScale": 0.941
+    },
+    "rightRotationDegrees": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "seamBlendWidth": 0.065
+  }
+}
